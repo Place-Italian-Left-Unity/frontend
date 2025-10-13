@@ -1,7 +1,7 @@
-import {useTranslations} from 'next-intl';
+//import {useTranslations} from 'next-intl';
 
 export default function ExampleClientComponent() {
-  const t = useTranslations();
+  //const t = useTranslations();
   
   return (
     <div>
