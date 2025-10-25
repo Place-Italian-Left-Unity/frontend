@@ -37,7 +37,7 @@ export default function RootLayout({
 
             {/* sun icon */}
             <svg
-              className="swap-off h-10 w-10 fill-accent"
+              className="swap-off h-10 w-10 fill-warning"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24">
               <path
@@ -46,7 +46,7 @@ export default function RootLayout({
 
             {/* moon icon */}
             <svg
-              className="swap-on h-10 w-10 fill-accent"
+              className="swap-on h-10 w-10 fill-info"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24">
               <path
