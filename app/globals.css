@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@plugin "daisyui" {
+  themes: false;
+}
+
+@plugin "./catppuccinTheme.latte.ts";
+@plugin "./catppuccinTheme.mocha.ts";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
